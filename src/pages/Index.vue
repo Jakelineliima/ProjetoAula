@@ -56,7 +56,9 @@ export default {
   },
   methods: {
     adicionarCompromisso() {
-      this.listaCompromisso.push({codigo: this.codigo, description: this.description });
+      this.listaCompromisso.push({
+       codigo: this.codigo,
+       description: this.description });
       this.codigo = ''
       this.description = ''
     },

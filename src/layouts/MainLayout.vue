@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Projeto em aula
+          Resturante Pe de Fava
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -41,8 +41,6 @@
         enter-active-class="animated fadeIn"
         leave-active-class="animated fadeOut"
       >
-        <!-- Wrapping only one DOM element, defined by QBtn -->
-        <q-btn color="secondary" icon="mail" label="Email" />
       </transition>
       <router-view />
     </q-page-container>
@@ -64,6 +62,18 @@ const linksData = [
     caption: "Promoções da semana",
     icon: "money",
     link: "/promocao"
+  },
+  {
+    title: "Resturante",
+    caption: "Restaurante que delica",
+    icon: "restaurant",
+    link: "/resturante"
+  },
+  {
+    title:"Cardapio",
+    caption: "Ofertas do dia",
+    icon: "menu_book",
+    link: "/cardapio"
   }
 ];
 
